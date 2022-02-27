@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# BTC Prediction by LSTM
+### Time: 2021 Oct
+### Contributors:  Joe Qiao, Yunyi Gao, Ke Ma, Mingzhe Xu, Yishun Liu, Xiao Liang
+This is a group project as part of course DBA5102 Capstone. The project mainly try to use LSTM and static database to predict BTC prices. 
+* Time Window: 10 days
+* predict horizon: 1 day average price
+* Features in total: 61
+* Dated Between：2020/9/16 ~ 2021/9/17
 
-You can use the [editor on GitHub](https://github.com/marcov131842/BTCpred/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**1 Bitcoin property and network**
+Bitcoin Daily Average Prices, Hash Rate, Miner Rewards, Miner Reserves,…
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**2 Bitcoin Marketing and trading**
+Number of Large Transactions, Average Transaction Size, Average Balance, Average Time Between Transactions, …
 
-### Markdown
+**3 Global economic indicators**
+Gold price, US dollar index, Dow Jones Commodity index, … 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**4 Investors and Media Attention**
+Google trend, Twitter positive, Twitter negative, …
 
-```markdown
-Syntax highlighted code block
+**5 Prices of Other Cryptocurrencies and BTC Index**
+ Ethereum, Dogecoin, CCI30*
 
-# Header 1
-## Header 2
-### Header 3
+## Files
+*cleaned data_new.csv* --- Raw cleaned data
 
-- Bulleted
-- List
+*all_data_new.csv*     --- Raw integrated data
 
-1. Numbered
-2. List
+*bitcoin_final.ipynb*  --- Code
 
-**Bold** and _Italic_ and `Code` text
+*Bitcoin price prediction.pdf* --- Project presentation
 
-[Link](url) and ![Image](src)
-```
+***
+Specially thanks for Prof. Pang and other indutry partners of MSBA for their guidence and review.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Our project is chosen to be one of outstanding projects that are qualified to present in front of reviewers from industry partners of NUS MSBA and the whole class. 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marcov131842/BTCpred/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
