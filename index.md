@@ -9,7 +9,7 @@ This is a group project as part of course DBA5102 Capstone. The project mainly t
 
 **Find the Full Report [here](https://github.com/marcov131842/BTCpred/blob/main/Bitcoin%20price%20prediction.pdf)**
 
-![report](https://raw.githubusercontent.com/marcov131842/BTCpred/main/cover.JPG, 'Bitcoin Price prediction)
+![Report](https://raw.githubusercontent.com/marcov131842/BTCpred/main/cover.JPG "Bitcoin Price prediction")
 
 ### Data Sources
 **1 Bitcoin property and network**
